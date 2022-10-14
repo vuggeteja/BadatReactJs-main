@@ -1,0 +1,174 @@
+.productDetailContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50%;
+}
+
+.productButtonHeaderContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.productDetailHeader {
+  font-weight: 500;
+  font-size: large;
+  width: 60%;
+}
+
+.productDetailShareButtonContainer {
+  font-size: large;
+  font-weight: 500;
+  text-align: right;
+  color: rgb(255, 187, 0);
+  width: 40%;
+}
+
+.productDetailCardContainer {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.productdetailCardImageContainer {
+  width: 40%;
+}
+.productDetailCardDetailContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.productDetailCardName {
+  width: 100%;
+  text-align: left;
+  font-size: 30px;
+  color: rgb(54, 54, 42);
+  font-weight: regular;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.productDetailCardPrice {
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+  font-weight: regular;
+}
+
+.productDetailCardMoq {
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+  font-weight: regular;
+}
+
+.productDetailCardSeller {
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.productDetailCategoriesDetail {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.productDetailCategory {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.productDetailSubCategory {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.productDetailCartCategoryTitle {
+  width: 50%;
+  font-weight: 500;
+  text-align: left;
+}
+
+.productDetailCartCategoryContent {
+  width: 50%;
+  text-align: right;
+}
+
+.productaDetailDescription {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.productDetailDescriptionHeading {
+  font-weight: bold;
+  width: 100%;
+  text-align: left;
+  font-size: 12px;
+}
+
+.productDetailDescriptionContent {
+  width: 100%;
+  text-align: left;
+  font-weight: regular;
+  font-size: 12px;
+}
+
+.productDetailButton {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+.productDetailOrderNowButton {
+  width: 50%;
+  height: 100%;
+}
+
+.productDetailAddToCartButton {
+  width: 50%;
+  height: 100%;
+}
+
+.ProductDetailShareButton {
+  margin: 5px 12px;
+}
+
+@media screen and (max-width: 700px) {
+  .productDetailContainer {
+    margin-bottom: 100px;
+  }
+}

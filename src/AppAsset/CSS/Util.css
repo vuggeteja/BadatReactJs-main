@@ -1,0 +1,28 @@
+.fontColorBlack {
+  color: black;
+}
+
+.confirmButtonStyle {
+  width: 250px;
+  height: 60px;
+  background-color: rgb(76, 246, 96);
+  margin: 5px;
+  font-size: larger;
+  font-weight: 500;
+  border: none;
+}
+
+.denyButtonStyle {
+  background-color: transparent;
+  border: none;
+}
+
+.confirmButtonStyleInstallApp {
+  width: 200px;
+  height: 60px;
+  background-image: url("../InstallApp.png");
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

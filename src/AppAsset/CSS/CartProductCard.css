@@ -1,0 +1,129 @@
+.cartProductCardContainer {
+  width: 47%;
+  height: 140px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  border: 1px solid rgb(226, 223, 223);
+  cursor: pointer;
+  position: relative;
+}
+
+.cartProductCardImage {
+  width: 30%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.cartProductCardDetail {
+  width: 40%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cartProductCardButton {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cartProductCardDelete {
+  float: right;
+}
+
+.cartProductCardAddSubSection {
+  /* position: absolute; */
+  width: 100%;
+  float: right;
+  /* padding-right: 5px; */
+  margin-top: 30px;
+  margin-left: -20px;
+  display: flex;
+}
+
+.cartProductAddSubQuantity {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 500;
+}
+
+.cartProductDetailName {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: capitalize;
+  /* margin-top: 1%;
+  margin-bottom: 1%; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cartProductDetailPrice {
+  color: rgb(37, 35, 35);
+  font-weight: 550;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cartProductDetailQuantity {
+  color: rgb(37, 35, 35);
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cartProductDetailTotal {
+  color: rgb(37, 35, 35);
+  font-weight: 550;
+  font-size: 14px;
+  text-transform: capitalize;
+  /* margin-top: 1%;
+  margin-bottom: 1%; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cartProductCardButtons {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 35px;
+  cursor: pointer;
+}
+
+.cartProductCardDelete .MuiIconButton-label {
+  float: right;
+  position: absolute;
+  margin-top: 15px;
+  margin-right: -133px;
+}
+
+@media screen and (max-width: 700px) {
+  .cartProductCardContainer {
+    width: 100%;
+    height: 130px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-bottom: 1px solid rgb(226, 223, 223);
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+  }
+}

@@ -1,0 +1,26 @@
+.cartContainer {
+  width: 100%;
+}
+
+.cartProductContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cartDetail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cartPlaceOrdersection {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+

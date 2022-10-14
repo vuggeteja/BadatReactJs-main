@@ -1,0 +1,15 @@
+.footerContainer {
+  width: 100%;
+  background-color: rgb(190, 173, 153);
+  height: 50px;
+  /* position: fixed; */
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: -50px;
+  margin-top: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  /* background-color: rgb(rgb(245, 102, 19), green, blue); */
+}

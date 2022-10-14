@@ -1,0 +1,10 @@
+.help-page{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	/*height: 84vh;	*/
+	margin-top: 50px;
+}
+.help-accordion{
+	width: 100%;
+}

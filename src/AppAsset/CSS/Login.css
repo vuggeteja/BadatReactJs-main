@@ -1,0 +1,60 @@
+.loginContainer {
+  width: 100%;
+}
+
+.loginFormContainer {
+  width: 94%;
+  margin: 3%;
+}
+
+.loginFormField {
+  margin-top: 10px;
+}
+
+.loginFormDiv {
+  border: 1px solid rgb(63, 53, 53);
+  padding: 5%;
+  width: 90%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.helperTextMobile {
+  text-align: center;
+  margin-right: 0;
+  padding-left: 85%;
+  text-orientation: sideways;
+}
+
+.helperTextOtp {
+  text-align: center;
+  margin-right: 0;
+  padding-left: 89%;
+  text-orientation: sideways;
+}
+
+@media screen and (min-width: 700px) {
+  .loginFormDiv {
+    border: 1px solid rgb(63, 53, 53);
+    padding: 5%;
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .helperTextMobile {
+    text-align: center;
+    margin-right: 0;
+    padding-left: 90%;
+    text-orientation: sideways;
+  }
+  
+  .helperTextOtp {
+    text-align: center;
+    margin-right: 0;
+    padding-left: 92%;
+    text-orientation: sideways;
+  }
+}

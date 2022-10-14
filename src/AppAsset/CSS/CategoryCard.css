@@ -1,0 +1,52 @@
+.categoryCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden !important;
+  /* backgroundColor: , */
+  scrollbar-width: none;
+}
+
+.categoryCardContainer ::-webkit-scrollbar {
+  display: none;
+}
+.categoryCardContainer .MuiGridListTileBar-rootSubtitle {
+  height: 100%;
+}
+
+.categoryCards {
+  width: 90%;
+  height: auto;
+  cursor: pointer;
+}
+
+.categoryCards .MuiGridListTile-tile {
+  border-radius: 25px;
+}
+
+.categoryCards .MuiGridListTile-root {
+  padding: 5px !important;
+}
+
+.categoryIcon {
+  width: 20%;
+  margin-left: 46%;
+}
+
+@media screen and (max-width: 700px) {
+  .categoryIcon {
+    width: 20%;
+    margin-left: 42%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .categoryIcon {
+    width: 20%;
+    margin-left: 35%;
+  }
+
+  .categoryCards .MuiGridListTile-root {
+    height: 100px !important;
+  }
+}

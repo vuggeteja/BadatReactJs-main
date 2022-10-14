@@ -1,0 +1,18 @@
+.categoryContainer {
+  width: 100%;
+}
+
+.categoryTitle {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: large;
+  color: rgb(255, 179, 16);
+}
+
+.css-df17o1 {
+  height: 600px;
+}
+

@@ -1,0 +1,64 @@
+.selectedVerticleCategory {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .verticleCategoryPaper {
+    /*display: inline-block;*/
+    position: relative;
+    width: 100%;
+    /*height: 100%;*/
+    text-align: center;
+    background-color: rgb(254, 227, 206) !important;
+  }
+  
+  .verticleCategorySliderCard {
+    /*width: 30%;*/
+    /*height: 50px;*/
+    margin: 5px;
+    /*background-color: rgb(254, 227, 206);*/
+  }
+  
+  .verticleCategoryGridContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 130px;
+    overflow-x: auto;
+  }
+  
+  .verticleCategoryGridContainer_Less_item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    height: 100px;
+  }
+  
+  .verticleCategoryGridContainer .MuiGrid-spacing-xs-1 {
+    width: 100% !important;
+  }
+  
+  .sliderCardVerticleCategoryName {
+/*    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .verticleCategoryGridContainer_Less_item::-webkit-scrollbar {
+      display: none;
+    }
+    .verticleCategorySliderCard {
+      width: 38%;
+    }
+  }
+  
+  .css-df17o1 {
+    height: 600px;
+  }

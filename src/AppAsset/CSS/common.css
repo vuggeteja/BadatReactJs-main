@@ -1,0 +1,9 @@
+.fabCommonClass {
+  margin: 0;
+  top: 300;
+  right: -10;
+  left: "auto";
+  position: "fixed";
+  height: 20;
+  /* z-index: 5; */
+}
