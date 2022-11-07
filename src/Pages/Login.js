@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable no-unused-var */
 /* eslint-disable react/jsx-no-duplicate-props */
 import React, { Component } from "react";
 import { connect } from "react-redux";
